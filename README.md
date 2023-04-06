@@ -24,18 +24,18 @@ State
 
 생명주기
    - 마운트
-    1. 컴포넌트가 생성될 떼
-    2. componentDidMount()
+     1. 컴포넌트가 생성될 떼
+     2. componentDidMount()
 
    - 업데이트
-    1. 컴포넌트의 props가 변경될 때
-    2. setState() 함수 호출에 의해 state가 변경될 때
-    3. forceUpdate()라는 강제 업데이트 함수가 호출될 때
-    4. componentDidUpdate()
+     1. 컴포넌트의 props가 변경될 때
+     2. setState() 함수 호출에 의해 state가 변경될 때
+     3. forceUpdate()라는 강제 업데이트 함수가 호출될 때
+     4. componentDidUpdate()
    
    -  언마운트
-    1. 상위 컴포넌트에서 현재 컴포넌트를 더 이상 화면에 표시하지 않게 될 때
-    2. componentWillUnmount()
+     1. 상위 컴포넌트에서 현재 컴포넌트를 더 이상 화면에 표시하지 않게 될 때
+     2. componentWillUnmount()
    
    - 컴포넌트는 계속 존재하는 것이 아니라 시간의 흐름에 따라 생성되고 업데이트되다가 사라지는 과정을 겪음
     
